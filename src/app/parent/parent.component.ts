@@ -16,5 +16,6 @@ export class ParentComponent {
   }
   demo(){
    console.log(this.childComponent.test());
+   console.log("child is activated");
   }
 }
